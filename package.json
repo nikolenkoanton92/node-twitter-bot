@@ -1,0 +1,23 @@
+{
+  "name": "node-twitter-bot",
+  "version": "0.0.1",
+  "description": "Node Twitter Bot ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikolenkoanton92/node-twitter-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "author": "Anton Nikolenko <nikolenkoanton92@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolenkoanton92/node-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/nikolenkoanton92/node-twitter-bot"
+}
