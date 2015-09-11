@@ -14,4 +14,10 @@ Alternately, download the source.
 git clone https://github.com/nikolenkoanton92/node-twitter-bot.git
 ```
 
+##Features
+
+* Add Tweet By boy
+* Get List of Following People  (optionaly you can unfollow)
+
+
 
