@@ -41,7 +41,7 @@ var nodeTwitterBot = new NodeTwitterBot({
 
 ## API
 
-###  addTweet(String, callback)
+###  addTweet(String, [callback])
 
 #### Example:
 
@@ -54,5 +54,23 @@ nodeTwitterBot.addTweet('My First Tweet', function(err, res){
 });
 
 ```
+
+###  getTweet(String, Object, [callback])
+
+####  Example:
+
+```javascript
+
+nodeTwitterBot.getTweet('Node Twitter Bot',options, function(err,res){
+
+  // doing something
+
+});
+
+```
+
+
+### getFollowingList(Object, [callback])
+
 
 
