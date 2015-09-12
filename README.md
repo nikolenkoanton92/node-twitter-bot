@@ -1,5 +1,11 @@
 # Node Twitter Bot
 
+##  This version now Unstable, You can use for fun.
+
+## Contact Me
+
+### If you have any questions, suggestions or ideas - chat with me at [gitter chat](https://gitter.im/nikolenkoanton92/node-twitter-bot)
+
 ##  Installation
 
 The easiest way to install node-twitter-bot is with [`npm`](http://npmjs.org)
