@@ -25,12 +25,28 @@ git clone https://github.com/nikolenkoanton92/node-twitter-bot.git
 ```javascript
 var  NodeTwitterBot = require('node-twitter-boy');
 
-var nodeTwitterBoy = new NodeTwitterBot({
+var nodeTwitterBot = new NodeTwitterBot({
   consumerKey : 'Your Consumer Key',
   consumerSecret : 'Your consumer Secret',
   accessToken : 'Your access Token',
   accessTokenSecret : 'Your access Token Secret'
 });
+```
+
+## API
+
+###  addTweet(String, callback)
+
+#### Example:
+
+```javascript
+
+nodeTwitterBot.addTweet('My First Tweet', function(err, res){
+
+  // doing something
+
+});
+
 ```
 
 
