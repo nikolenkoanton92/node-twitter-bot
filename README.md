@@ -1,5 +1,7 @@
 # Node Twitter Bot
 
+[![Join the chat at https://gitter.im/nikolenkoanton92/node-twitter-bot](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nikolenkoanton92/node-twitter-bot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ##  Installation
 
 The easiest way to install node-twitter-bot is with [`npm`](http://npmjs.org)
