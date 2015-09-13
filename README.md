@@ -69,6 +69,29 @@ nodeTwitterBot.getTweet('Node Twitter Bot',options, function(err,res){
 
 ```
 
+###  getListFollowingCandidates(String, Object,[callback])
+
+####  Example
+
+```javascript
+
+  var options = {
+    page : 33,
+    count : 15
+  };
+
+```
+
+```javascript
+
+nodeTwitterBot.getListFollowingCandidates('fashion',options, function(err,res){
+
+  // doing something
+
+});
+
+```
+
 
 ### getFollowingList(Object, [callback])
 
