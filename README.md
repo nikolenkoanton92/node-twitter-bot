@@ -1,6 +1,6 @@
 # Node Twitter Bot
 
-##  This version now Unstable, You can use for fun.
+##  This version is Unstable, You can use for fun.
 
 ## Contact Me
 
