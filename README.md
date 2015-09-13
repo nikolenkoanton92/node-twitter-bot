@@ -101,6 +101,27 @@ nodeTwitterBot.getListFollowingCandidates('fashion',options, function(err,res){
 
 ```
 
+###  followingList(id,options,[callback])
+
+####  Example
+
+```javascript
+
+// id - can be screen_name or user_id
+
+var id = 'SomethingUsername';
+
+var options = {
+  follow : true
+  };
+
+nodeTwitterBot.followingList(id,options, function(err,res){
+
+  // doing something
+
+});
+
+```
 
 ### getFollowingList(Object, [callback])
 
