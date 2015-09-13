@@ -61,6 +61,15 @@ nodeTwitterBot.addTweet('My First Tweet', function(err, res){
 
 ```javascript
 
+  var options = {
+    result_type : 'recent',
+    count 5
+  };
+
+```
+
+```javascript
+
 nodeTwitterBot.getTweet('Node Twitter Bot',options, function(err,res){
 
   // doing something
