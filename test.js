@@ -10,6 +10,10 @@ var options = {
 
 var nodeBot = new NodeBot(options);
 
+nodeBot.follow('developer', {
+  count: 12
+});
+
 // nodeBot.addTweet('Hello Twitter How Are you?My name is Bad', function(err, res) {
 // console.log('Node Bot Twet cb')
 // console.log(err)
@@ -50,21 +54,21 @@ var opt = {
   // count: 20,
 };
 
-nodeBot.getListFollowingCandidates('css', function(err, res) {
-  console.log(err)
-  console.log(res)
-  if (res !== undefined) {
-    res.forEach(function(element) {
-      nodeBot.followingUser({
-        user_id: element.id
-      }, function(err, res) {
+// nodeBot.getListFollowingCandidates('css', function(err, res) {
+//   console.log(err)
+//   console.log(res)
+//   if (res !== undefined) {
+//     res.forEach(function(element) {
+//       nodeBot.followingUser({
+//         user_id: element.id
+//       }, function(err, res) {
 
-      });
-    });
-  }
-});
+//       });
+//     });
+//   }
+// });
 
-nodeBot.schelude('addTweet', 'getTweet');
+// nodeBot.schelude('addTweet', 'getTweet');
 // var opts = {
 //   // q: 'node.js',
 //   // result_type: 'popular',

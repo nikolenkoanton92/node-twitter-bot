@@ -1,10 +1,9 @@
 # Node Twitter Bot
 
+[![Join the chat at https://gitter.im/nikolenkoanton92/node-twitter-bot](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nikolenkoanton92/node-twitter-bot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ##  This version is Unstable, You can use for fun.
 
-## Contact Me
-
-### If you have any questions, suggestions or ideas - chat with me at [gitter chat](https://gitter.im/nikolenkoanton92/node-twitter-bot)
 
 ##  Installation
 
@@ -50,93 +49,4 @@ var nodeTwitterBot = new NodeTwitterBot({
 });
 ```
 
-
-
-## API
-
-###  addTweet(String, [callback])
-
-#### Example:
-
-```javascript
-
-nodeTwitterBot.addTweet('My First Tweet', function(err, res){
-
-  // doing something
-
-});
-
-```
-
-###  getTweet(String, Object, [callback])
-
-####  Example:
-
-```javascript
-
-  var options = {
-    result_type : 'recent',
-    count 5
-  };
-
-```
-
-```javascript
-
-nodeTwitterBot.getTweet('Node Twitter Bot',options, function(err,res){
-
-  // doing something
-
-});
-
-```
-
-###  getListFollowingCandidates(String, Object,[callback])
-
-####  Example
-
-```javascript
-
-  var options = {
-    page : 33,
-    count : 15
-  };
-
-```
-
-```javascript
-
-nodeTwitterBot.getListFollowingCandidates('fashion',options, function(err,res){
-
-  // doing something
-
-});
-
-```
-
-###  followingList(id,options,[callback])
-
-####  Example
-
-```javascript
-
-// id - can be screen_name or user_id
-
-var id = 'SomethingUsername';
-
-var options = {
-  follow : true
-  };
-
-nodeTwitterBot.followingList(id,options, function(err,res){
-
-  // doing something
-
-});
-
-```
-
-### getFollowingList(Object, [callback])
-
-
-
+## Documentation
