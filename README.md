@@ -21,8 +21,8 @@ git clone https://github.com/nikolenkoanton92/node-twitter-bot.git
 
 ##  Features
 
-* Add Tweet By boy
-* Get List of Following People  (optionaly you can unfollow)
+* follow users by tweet
+* unfollow users
 
 
 ##  Usage
@@ -67,3 +67,11 @@ If ```options``` is specified, then the default options(shown bellow) will be ov
 ```
 
 #### `nodeTwitterBoy.unfollowAll(user,[options])`
+
+Start unfollowing people.
+
+`user` can be any of the following:
+
+* the ID of the user for whom to return results for.
+* the screen name of the user for whom to return results for.
+
