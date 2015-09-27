@@ -53,10 +53,9 @@ var nodeTwitterBot = new NodeTwitterBot({
 
 This API should work exactly the same in node. Open an issue if this is not the case.
 
-```javascript
-nodeTwitterBot.followByTweets(phrase,[options])
-```
-Start following people by phrase in tweet.
+#### `nodeTwitterBot.followByTweets(phrase,[options])`
+
+Start following people by `phrase` in tweet.
 
 If ```options``` is specified, then the default options(shown bellow) will be overridden.
 
@@ -66,3 +65,5 @@ If ```options``` is specified, then the default options(shown bellow) will be ov
   count: Number, // The number of tweets to return per page, up to a maximum of 100. Defaults to 15.
 }
 ```
+
+#### `nodeTwitterBoy.unfollowAll(user,[options])`
