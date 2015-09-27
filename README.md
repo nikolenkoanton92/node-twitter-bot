@@ -49,4 +49,20 @@ var nodeTwitterBot = new NodeTwitterBot({
 });
 ```
 
-## Documentation
+## API
+
+This API should work exactly the same in node. Open an issue if this is not the case.
+
+```javascript
+nodeTwitterBot.followByTweets(phrase,[options])
+```
+Start following people by phrase in tweet.
+
+If ```options``` is specified, then the default options(shown bellow) will be overridden.
+
+```javascript
+{
+  result_type: String, // Specifies what type of search results you would prefer to receive. By default : popular. You can change to recent, popular, mixed.
+  count: Number, // The number of tweets to return per page, up to a maximum of 100. Defaults to 15.
+}
+```
