@@ -22,6 +22,7 @@ git clone https://github.com/nikolenkoanton92/node-twitter-bot.git
 ##  Features
 
 * follow users by tweet
+* follow user by specified user
 * unfollow users
 
 
@@ -65,8 +66,20 @@ If ```options``` is specified, then the default options(shown bellow) will be ov
   count: Number, // The number of tweets to return per page, up to a maximum of 100. Defaults to 15.
 }
 ```
+#### `nodeTwitterBot.followByUser(user,[options])`
 
-#### `nodeTwitterBoy.unfollowAll(user,[options])`
+Start following peoply by 'user name'(should be String) in tweet.
+
+if ```options``` is specified, the the default options(show bellow) will be overridden.
+
+```javascript
+{
+  count: Number, // Maximum of 5,000 per distinct request. Defaults to 15.
+}
+
+```
+
+#### `nodeTwitterBot.unfollowAll(user,[options])`
 
 Start unfollowing people.
 
