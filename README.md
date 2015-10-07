@@ -75,6 +75,10 @@ if ```options``` is specified, the the default options(show bellow) will be over
 ```javascript
 {
   count: Number, // Maximum of 5,000 per distinct request. Defaults to 15.
+  file : {
+    save : true, // if you would like save followers to file add true, by default it is false.
+    fileName:  'file name of the file' // set filename of file
+  }
 }
 
 ```
