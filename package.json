@@ -1,6 +1,6 @@
 {
   "name": "node-twitter-bot",
-  "version": "0.0.9",
+  "version": "0.0.91",
   "description": "Node Twitter Bot ",
   "main": "index.js",
   "scripts": {
