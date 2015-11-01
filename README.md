@@ -40,7 +40,7 @@ Following these steps will create 4 tokens that you will need to place in the co
 ``` consumerKey ``` , ```consumerSecret ``` , ``` accessToken ``` , ``` accessTokenSecret ``` are your API keys that you received from creating your app account.
 
 ```javascript
-var  NodeTwitterBot = require('node-twitter-boy');
+var  NodeTwitterBot = require('node-twitter-bot');
 
 var nodeTwitterBot = new NodeTwitterBot({
   consumerKey : 'Your Consumer Key',
